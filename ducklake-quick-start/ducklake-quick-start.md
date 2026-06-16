@@ -1,6 +1,6 @@
-# DuckLAke Quick Start Guide (CLI Only)
+# DuckLake Quick Start Guide (CLI Only)
 
-Pure CLI workflow for DuckLAke. Copy and paste each command directly into your shell.
+Pure CLI workflow for DuckLake. Copy and paste each command directly into your shell.
 
 ---
 
@@ -26,7 +26,7 @@ You're now in the DuckDB interactive shell.
 
 ---
 
-## 3. Install DuckLAke
+## 3. Install DuckLake
 
 Inside the DuckDB shell:
 
@@ -36,7 +36,7 @@ INSTALL ducklake;
 
 ---
 
-## 4. Load DuckLAke
+## 4. Load DuckLake
 
 ```sql
 LOAD ducklake;
@@ -113,5 +113,5 @@ Exit the shell when done:
 ---
 
 For more details, see [DuckDB documentation](https://duckdb.org/docs/).
-For more information and advanced usage, check out the [DuckLake documentation](https://ducklake.select/docs/stable/).
+For more information and advanced usage, check out the [DuckLake documentation](https://ducklake.select/docs/).
 
