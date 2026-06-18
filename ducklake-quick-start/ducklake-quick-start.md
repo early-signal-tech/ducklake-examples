@@ -126,7 +126,7 @@ SELECT * FROM users_over_30;
 Flush inlined data from a table using DuckLake:
 
 ```sql
-CALL ducklake_flush_inlined_data('my_ducklake', table_name => 'users');
+CALL ducklake_flush_inlined_data('mydb;', table_name => 'users');
 ```
 
 ---
