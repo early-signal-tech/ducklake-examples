@@ -49,7 +49,7 @@ LOAD ducklake;
 Attach a DuckDB database:
 
 ```sql
-ATTACH 'quickstart.duckdb' AS mydb;
+ATTACH 'ducklake:quickstart.duckdb' AS mydb;
 USE mydb;
 ```
 
@@ -77,7 +77,7 @@ Create a table:
 
 ```sql
 CREATE TABLE users (
-  id INTEGER PRIMARY KEY,
+  id INTEGER,
   name TEXT,
   age INTEGER
 );
