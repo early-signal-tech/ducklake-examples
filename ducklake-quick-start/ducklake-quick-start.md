@@ -57,14 +57,6 @@ USE mydb;
 
 ## 6. List Tables
 
-View tables in your database:
-
-```sql
-.tables
-```
-
-Or use SQL:
-
 ```sql
 SHOW TABLES;
 ```
