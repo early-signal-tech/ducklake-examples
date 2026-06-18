@@ -131,6 +131,27 @@ CALL ducklake_flush_inlined_data('my_ducklake', table_name => 'users');
 
 ---
 
+## 11. Insert Multiple Rows to Demonstrate Inlining Threshold
+
+Insert 11 rows to show DuckLake's data inlining behavior:
+
+```sql
+INSERT INTO users (id, name, age) VALUES
+  (4, 'Diana', 45),
+  (5, 'Eve', 31),
+  (6, 'Frank', 29),
+  (7, 'Grace', 35),
+  (8, 'Henry', 42),
+  (9, 'Iris', 26),
+  (10, 'Jack', 38),
+  (11, 'Karen', 33),
+  (12, 'Leo', 27),
+  (13, 'Megan', 41),
+  (14, 'Noah', 30);
+```
+
+---
+
 Exit the shell when done:
 
 ```sql
