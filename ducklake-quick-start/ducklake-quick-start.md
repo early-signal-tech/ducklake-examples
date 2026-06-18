@@ -50,11 +50,28 @@ Attach a DuckDB database:
 
 ```sql
 ATTACH 'quickstart.duckdb' AS mydb;
+USE mydb;
 ```
 
 ---
 
-## 6. Create Table and Insert Data
+## 6. List Tables
+
+View tables in your database:
+
+```sql
+.tables
+```
+
+Or use SQL:
+
+```sql
+SHOW TABLES;
+```
+
+---
+
+## 7. Create Table and Insert Data
 
 Create a table:
 
@@ -77,7 +94,7 @@ INSERT INTO users (id, name, age) VALUES
 
 ---
 
-## 7. Create Table from Source
+## 8. Create Table from Source
 
 Build a new table from a SELECT query:
 
@@ -88,7 +105,7 @@ CREATE TABLE users_over_30 AS
 
 ---
 
-## 8. Query Tables
+## 9. Query Tables
 
 Query the original table:
 
